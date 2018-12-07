@@ -26,6 +26,9 @@ machine_contents = contents_array.map do |item|
                     item["type"]
                    end
 
+if gets.chomp == 'c'
+ puts machine_contents
+end
 
 # if gets.chomp == 'i'
 #   x = gets.chomp
